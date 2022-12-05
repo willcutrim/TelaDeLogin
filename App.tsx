@@ -1,9 +1,10 @@
-import { Login } from "./src/screens/Login";
+import { AppRoutes } from "./src/routes/app.routes";
+
 
 
 export default function App() {
   return (
-    <Login/>
+    <AppRoutes/>
   );
 }
 
