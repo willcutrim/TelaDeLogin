@@ -12,7 +12,7 @@ export const Container = styled(TouchableOpacity)`
 
     border-radius: 10px;
 
-    margin-top: 58px;
+    margin-top: 6%;
 `;
 
 export const Title = styled.Text`

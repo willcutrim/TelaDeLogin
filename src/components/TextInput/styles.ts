@@ -7,7 +7,7 @@ export const Input = styled.TextInput`
     width: 100%;
 
     border-radius: 10px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 
     padding: 16px;
 `;
