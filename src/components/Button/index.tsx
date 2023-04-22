@@ -1,12 +1,14 @@
 import { Container, Title } from './styles';
+import { TouchableOpacityProps } from 'react-native';
 
-type Props = {
+type Props = TouchableOpacityProps & {
     title: string;
+    login: () => void;
 }
 
-export function Bottom({ title }: Props){
+export function Bottom({ title, login, ...rest }: Props){
     return(
-        <Container>
+        <Container onPress={login}>
             <Title>
                 {title}
             </Title>
